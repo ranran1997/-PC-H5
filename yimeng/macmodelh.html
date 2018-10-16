@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>选择机型</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/adapter.css" />
+		<link rel="stylesheet" type="text/css" href="css/macmodelh.css" />
+	</head>
+
+	<body>
+		<div class="container col jz" id="container">
+			<!--模板-->
+		</div>
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/artTemplate/template-web.js"></script>
+		<script src="js/macmodelh.js"></script>
+		<script type="text/html" id="tpl1">
+			{{each data v i}}
+				<div class='father sp' id="father" data-serviceId="{{v.serviceId}}" data-model="{{v.serviceName}}">
+					<img src="{{v.serviceImg}}" alt="" />
+					<span>{{v.serviceName}}</span>
+					<span class='size'>{{v.serviceName}}</span>
+				</div>
+			{{/each}}
+		</script>
+		<script src="js/common.js"></script>
+	</body>
+
+</html>

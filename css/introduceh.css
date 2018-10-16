@@ -1,0 +1,36 @@
+.tab{
+	display: flex;
+	height:2rem;
+}
+.tab li{
+	flex:1;
+}
+#introduce,#join,#process{
+	width:100%;
+	display:none;
+	margin-bottom:1rem;
+}
+.pic1{
+	height:5.66rem;
+	width:100%;
+}
+p{
+	padding:0 0.4rem;
+	line-height:1rem;
+}
+.cont{
+	padding:0.4rem 0.4rem;
+	
+}
+.pic2{
+	height:6.94rem;
+	width:100%;
+}
+.tit{
+	font-weight: bold;
+	margin-top:0.2rem;
+}
+.pic3{
+	height:3.74rem;
+	width:100%;
+}

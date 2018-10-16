@@ -1,0 +1,27 @@
+
+.container{
+  padding-top:0.3rem;
+  width:100%;
+}
+.father {
+width:94%;
+  height: 2.4rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.2rem;
+  background-color: #fff;
+   margin-bottom:0.4rem;
+}
+
+.father img {
+  width:2.88rem;
+  height:1.8rem;
+  margin-left: 0.1rem;
+}
+.father span{
+  margin-left:0.28rem;
+}
+.size{
+  color:#b2b1b1;
+  font-size:0.6rem;
+}
+

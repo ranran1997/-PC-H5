@@ -1,0 +1,19 @@
+
+.progressBar{
+	height:105px;
+	margin-bottom:50px;
+	margin-top:30px;
+	border-top: 1px solid #f0f0f0;
+	padding-top: 30px;
+}
+.processTitle{
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.txt {
+	line-height: 42px;
+	font-size: 16px;
+	padding-left:300px;
+	margin-bottom:80px;
+}

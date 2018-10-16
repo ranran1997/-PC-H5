@@ -1,0 +1,48 @@
+.problem .txt {
+	margin-left: 3%;
+	color: #777;
+	font-size: 0.8rem;
+	height: 2rem;
+	line-height: 2.2rem;
+	border-bottom: 5px solid #f8f8f8;
+}
+
+.fault {
+	background-color: #fff;
+	border-bottom: 1px solid #f8f8f8;
+	height: 2rem;
+	line-height: 2rem;
+	padding: 0 0.6rem;
+}
+
+.fault .price {
+	color: #f83f4d;
+	font-weight: bold;
+	width: 20%;
+	position: absolute;
+	top:0rem;
+	right:2rem;
+}
+.fault img{
+    width: 1.04rem;
+    height: 1.04rem;
+    visibility:hidden;
+    margin-top:0.6rem;
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3.4rem;
+  background-color: #f1f1f1;
+}
+
+.bottom p {
+  height: 2rem;
+  width: 90%;
+  background-color: #f83f4d;
+  color: #fff;
+  border-radius: 0.3rem;
+  font-size:0.8rem;
+}

@@ -1,0 +1,27 @@
+.processTitle{
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	border-top: 1px solid #f0f0f0;
+	padding-top: 30px;
+}
+.allPro{
+	margin-bottom:80px;
+	font-size: 16px;
+}
+.leftPro{
+	border-right:4px solid #fff;
+}
+.leftPro p,.rightPro p{
+	width:540px;
+	height:60px;
+	 display: flex;
+  align-items: center;
+  padding:0 20px;
+}
+.strong{
+	font-weight: bold;
+}
+.leftPro p:nth-child(odd),.rightPro p:nth-child(odd){
+	background-color: #f6f6f6;
+}

@@ -1,0 +1,111 @@
+.info {
+	height: 500px;
+	width: 290px;
+	font-size: 20px;
+	margin-right:30px;
+}
+
+.infoPic {
+	height: 270px;
+	border: 1px solid #e7e7e7;;
+	width: 290px;
+}
+
+.infoText {
+	height: 46px;
+	width: 290px;
+	background-color: #e7e7e7;
+	line-height: 48px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.ad {
+	height: 43px;
+	width: 202px;
+	margin: 0 auto;
+}
+
+.ad .alone {
+	width: 50%;
+	font-size: 14px;
+}
+
+.alone p {
+	width: 12px;
+	height: 12px;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+
+.p1 {
+	background-color: #68d6b3;
+}
+
+.p2 {
+	background-color: #7fbbff;
+}
+
+.p3 {
+	background-color: #a170e5;
+}
+
+.p4 {
+	background-color: #f66faa;
+}
+
+.choose {
+	width: 870px;
+	font-size: 20px;
+}
+.chooseTitle {
+	margin:40px 0 20px ;
+}
+.chooseColor div {
+	width: 18%;
+	height: 70px;
+	border: solid 1px #e7e7e7;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.chooseColor img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 50px;
+	height: 43px;
+	display: none;
+}
+.chooseFault div{
+	width: 30%;
+	height: 70px;
+	border: solid 1px #e7e7e7;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.chooseFault p{
+	color:#f83f4d;
+	font-size:16px;
+	margin-top: 5px;
+}
+.chooseFault img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 50px;
+	height: 43px;
+	display: none;
+}
+.next{
+	height:54px;
+	margin:30px 30px 100px 50px;
+}
+.next button{
+	width: 251px;
+	height: 54px;
+	background-color: #f83f4d;
+	border-radius: 3px;
+	color:#fff;
+	font-size:20px;
+}

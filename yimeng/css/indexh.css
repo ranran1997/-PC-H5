@@ -1,0 +1,245 @@
+body{overflow:hidden};
+.advertisement {
+	width: 100%;
+	height: 1.24rem;
+	padding-top: 0.32rem;
+	margin-bottom:0.4rem;
+}
+
+.advertisement .leftPic {
+	width: 4.64rem;
+	height: 1.26rem;
+	margin-left: 0.4rem;
+}
+
+.leftPic img {
+	width: 100%;
+	height: 100%;
+}
+
+.advertisement a {
+	margin-right: 0.4rem;
+	font-size: 0.5rem;
+}
+
+.banner {
+	width:15rem;
+	height:7.4rem;
+	margin-top:0.2rem;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.ad {
+	display: flex;
+	width: 100%;
+	height: 1rem;
+	background-color: #fff;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+
+.ad .line {
+	flex: 1;
+	text-align: center;
+}
+
+.line img {
+	width: 0.76rem;
+	height:0.76rem;
+	margin-right: 0.1rem;
+}
+
+.line span {
+	font-size: 0.5rem;
+	color: #999;
+}
+
+.box{
+	width：100%;
+}
+.son {
+	text-align: center;
+	border-right: 1px solid #f5f3f3;
+	border-bottom: 1px dotted #f5f3f3;
+	width:33%;
+}
+.son a{
+	width:100%;
+}
+.son span{
+	margin-bottom: 0.6rem;
+}
+.son .sonPic {
+	width: 2rem;
+	height: 2rem;
+	margin-top: 0.4rem;
+	margin-bottom: 0.5rem;
+}
+
+.sonPic img {
+	width: 100%;
+	height: 100%;
+}
+.fast{
+	width: 13.6rem;
+	height: 12.94rem;
+	box-shadow:0px 0px  10px 2px #cbcaca;
+	box-shadow: 1px #cbcaca;
+	margin:0 auto;
+	margin-top:1rem;
+	margin-bottom:1rem;
+	padding-top:0.76rem;
+}
+
+.fastTitle{
+	font-size: 0.84rem;
+	color: #f83f4d;
+	font-weight: bold;
+
+}
+.fastPhone,
+.fastpeople{
+	width: 12.2rem;
+	height: 1.88rem;
+	border-radius: 8px;
+	border: solid 1px #b4b4b4;
+	margin:0 auto;
+	margin-top:0.72rem;
+}
+.fastCode{
+	width: 12.2rem;
+	height: 1.88rem;
+	margin:0 auto;
+	margin-top:0.72rem;
+	border-bottom: solid 1px #b4b4b4;
+}
+.fastPhone img,
+.fastpeople img,
+.fastCode img{
+	width: 0.52rem;
+	margin-left:0.36rem;
+	margin-right:0.36rem;
+}
+.fastPhone input,
+.fastpeople input,
+.fastCode input{
+	width:80%;
+	height:90%;
+	font-size: 0.64rem;
+	color: #333333;
+}
+.fastCode .getCode{
+	width:5.04rem;
+	height:1.24rem;
+	border-radius: 5px;
+	border: solid 1px #f83f4d;
+	font-size: 0.54rem;
+	color: #f83f4d;
+	background-color:#fff ;
+}
+.query button{
+	width:11.8rem;
+	height:1.8rem;
+	background-color: #f4492f;
+	border-radius:12px;
+	color:#fff;
+	font-size:0.8rem;
+	margin-top:1rem;
+}
+.strength p{
+	font-size:0.6rem;
+	font-weight: bold;
+	
+}
+.strengthB{
+	flex:1;
+	font-size: 0.48rem;
+	padding:0.8rem 0;
+}
+.strengthB img{
+	width:1.04rem;
+	height:1.08rem;
+	margin-bottom:0.5rem;
+}
+.visit{
+	padding:0.5rem 0;
+}
+.talk{
+	width:10.02rem;
+	height:1.28rem;
+	margin-left:0.66rem;
+	margin-right:0.66rem;
+}
+.servicer{
+	width:2.86rem;
+	height:3.08rem;
+}
+.visit a{
+	position:absolute;
+	top:1.6rem;
+	left:1rem;
+	font-size:0.5rem;
+	color:#fff;
+}
+
+.bottom{
+	width:100%;
+	height:2.6rem;
+}
+.bottom ul{
+	width:100%;
+	height:1.6rem;
+	background-color: #f4f4f4;
+	margin-top:0.6rem;
+}
+.bottom li{
+	flex:1;
+	font-size: 0.52rem;
+}
+.problem{
+	width:100%;
+	overflow:hidden;
+}
+.problemtitle{
+	height:1.74rem;
+	width:100%;
+	border-bottom:1px solid #ccc;
+	padding-left:0.66rem;
+}
+
+.problem .problemline{
+	width:100%;
+	border-bottom:1px solid #ccc;
+	padding-left:0.66rem;
+	color: #333333;
+}
+.doubt{
+	height:0.86rem;
+	width:0.7rem;
+	margin-right:0.4rem;
+}
+.problemline div{
+	width:100%;
+	height:1.74rem;
+}
+.problemT{
+		color: #f83f4d;
+}
+.arrow{
+	width:0.46rem;
+	height:0.26rem;
+	position: absolute;
+	right:1.4rem;
+	top:0.7rem;
+}
+.problemline p{
+	padding-right:1.5rem;
+	margin-bottom:0.5rem;
+	color: #666;
+	font-size:0.5rem;
+	display: none;
+}
+

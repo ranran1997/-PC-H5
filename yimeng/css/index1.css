@@ -1,0 +1,200 @@
+.banner {
+	height: 300px;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 300px;
+}
+
+.swiper-pagination-bullet {
+	width: 13px;
+	height: 13px;
+	background-color: #ccc;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #fabc09;
+}
+
+.service {
+	margin-bottom: 30px;
+}
+
+.serviceTitle {
+	font-size: 25px;
+	color: #666666;
+	line-height: 25px;
+	margin-top:25px;
+}
+.serviceModel{
+	width: 100%;
+	margin-top:33px;
+		border-top: solid 1px #e7e7e7;
+	border-left: solid 1px #e7e7e7;
+}
+.serviceModel a{
+	width: 200px;
+	height: 155px;
+	border-right: solid 1px #e7e7e7;
+	border-bottom: solid 1px #e7e7e7;
+	box-sizing: border-box;
+	color: #666666;
+	font-size: 20px;
+}
+.serviceModel a:hover{
+	border: solid 1px #f83f4d;
+}
+
+.serviceModel img{
+	margin-bottom: 30px;
+}
+.fast {
+	width: 100%;
+	height: 570px;
+	background-image: url("https://ym-program.oss-cn-shanghai.aliyuncs.com/image/img.png");
+}
+
+.fastOrder {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 570px;
+}
+
+.fastTitle {
+	font-size: 25px;
+	color: #fbfbfb;
+	line-height: 25px;
+	margin: 20px 0;
+}
+
+.info {
+	width: 100%;
+	height: 60px;
+	margin-bottom: 30px
+}
+
+.info input {
+	margin-left: 40px;
+	width: 320px;
+	height: 100%;
+	background-color: #fff;
+	color: #333;
+	font-size: 20px;
+	margin-right: 20px;
+	padding-left: 10px;
+}
+
+.info .code {
+	margin-right: 0;
+	width: 220px;
+}
+
+.info .obtain {
+	width: 100px;
+	height: 100%;
+	background-color: #190D04;
+	font-size: 15px;
+	color: #fff;
+	margin-left:0;
+	padding-left: 0;
+}
+
+.fastSubmit {
+	width: 100%;
+	height: 60px;
+}
+
+.fastSubmit button {
+	width: 170px;
+	height: 100%;
+	background-color: #f83f4d;
+	border-radius: 5px;
+	font-size: 25px;
+	color: #fbfbfb;
+	line-height: 25px;
+}
+
+.engineer {
+	width: 100%;
+	height: 253px;
+	margin-top: 50px;
+}
+
+.engineer div {
+	flex: 1;
+}
+
+.engineer>div>img {
+	width: 353px;
+	height: 253px;
+}
+
+.servicemodeTitle {
+	font-size: 25px;
+	color: #333333;
+	margin: 30px 0 30px;
+}
+
+.serviceAll {
+	width: 100%;
+}
+
+.serviceAll div {
+	flex: 1;
+}
+
+.serviceAll>div>img {
+	width: 334px;
+	height: 315px
+}
+
+.quality {
+	height: 315px;
+}
+
+.qualityTitle {
+	font-size: 25px;
+	color: #333333;
+	margin-top: 30px;
+}
+
+.qualityText {
+	font-size: 16px;
+	margin: 15px 0 30px;
+}
+
+.qualityAll div {
+	flex: 1;
+}
+
+.qualityAll>div>img {
+	width: 280px;
+	height: 215px
+}
+.cooperation{
+	margin-top:30px;
+}
+.cooperationTitle {
+	font-size: 25px;
+	color: #333333;
+	margin-bottom: 40px;
+}
+
+.cooperationAll {
+	margin-bottom: 30px;
+}
+
+.cooperationAll div {
+	flex: 1;
+}
+
+.cooperationAll>div>img {
+	width: 267px;
+	height: 92px
+}
+

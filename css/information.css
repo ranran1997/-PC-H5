@@ -1,0 +1,137 @@
+body {
+	font-size: 18px;
+}
+.father{
+	margin-bottom:80px;
+}
+.son1 {
+	margin-left: 60px;
+	margin-right:69px;
+}
+.name,
+.phonenumber,
+.code,
+.address,
+.details {
+	height: 66px;
+	margin-top: 15px;
+	margin-bottom:5px;
+}
+
+.name p,
+.phonenumber p,
+.code p,
+.address p,
+.details p {
+	width: 60px;
+	height: 66px;
+}
+
+.name input,
+.code input,
+.details input {
+	width: 460px;
+	height: 100%;
+	border: solid 1px #cccccc;
+	padding-left: 24px;
+	font-size: 17px;
+}
+
+.phonenumber input {
+	width: 298px;
+	height: 100%;
+	border: solid 1px #ccc;
+	margin-right: 16px;
+	padding-left: 24px;
+	font-size: 17px;
+}
+#nameTips,#phoneTips,#codeTips{
+	height:30px;
+	margin-left:60px;
+	color:#f83f4d;
+}
+#saveCode {
+	width: 146px;
+	height: 65px;
+	background-color: #030125;
+	font-size: 24px;
+	color: #fff;
+	padding-left:0;
+}
+
+.address div {
+	width: 167px;
+	height: 68px;
+	border: solid 1px #cccccc;
+	font-size: 18px;
+	margin-right: 18px;
+}
+
+.address select {
+	padding-left: 35px;
+	width: 168px;
+	height: 70px;
+	font-size: 18px;
+	border: solid 1px #ccc;
+}
+.list{
+	width: 428px;
+	height: 240px;
+	background-color: #f5f5f5;
+	padding:30px 22px;
+	color:#999;
+}
+
+.list li{
+	margin-bottom:10px;
+}
+.list span{
+	color:#333;
+}
+.part{
+	width:300px;
+}
+.part span{
+	margin-right:10px;
+}
+.faultTitle{
+	width:96px;
+	margin-right:1px;
+}
+li .tips{
+	color:#999;
+}
+.price{
+	border-bottom:1px solid #ccc;
+	height:62px;
+	font-size: 20px;
+	color:#999;
+}
+.price span{
+	font-size: 26px;
+	color: #f83f4d;
+}
+.agreement {
+	font-size:20px;
+	margin-top:32px;
+}
+.agreement img{
+	width:32px;
+	height:32px;
+	margin-right:10px;
+}
+.agreement a{
+	color: #f83f4d;
+}
+.next{
+	height:54px;
+	margin-top:50px;
+}
+.next button{
+	width: 210px;
+	height: 54px;
+	background-color: #f83f4d;
+	border-radius: 3px;
+	color:#fff;
+	font-size:20px;
+}

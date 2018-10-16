@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>选择故障</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/adapter.css" />
+		<link rel="stylesheet" type="text/css" href="css/phonefaulth.css" />
+	</head>
+	<body>
+		<div class="container" id="container">
+			<!--选择颜色-->
+			<div class='choice col'>
+				<p class='txt'>选择颜色：</p>
+				<div class='wrap color' id="chooseColor">
+					<!--模板一-->
+				</div>
+			</div>
+			<!-- 故障详情 -->
+			<div class='problem'>
+				<p class='txt'>故障详情</p>
+				<div id="chooseFault">
+					<!--模板二-->
+				</div>
+			</div>
+		</div>
+		<div class='jz bottom' id="next">
+		   <p class='jz'>下一步</p>
+		</div>
+		</div>
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/artTemplate/template-web.js"></script>
+		<script src="js/phonefaulth.js"></script>
+		<script type="text/html" id="tpl1">
+			{{each data v i}}
+			<div class='jz pr' id="selColor">
+				<span>{{v.serviceName}}</span>
+				<img class="img" src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/h5/icon8_1@2x.png" alt="" />
+			</div>
+			{{/each}}
+		</script>
+		<script type="text/html" id="tpl2">
+			{{each data v i}}
+			<div class="pr fault bt" id="selFault">
+				<span data-partsId="{{v.partsId}}">{{v.partsName}}</span>
+				<p class='price'>¥<span id="price">{{v.partsEellout}}</span></p>
+				<img class="" src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/h5/icon_h_21@2x.png" alt="" id="faultPic" />
+			</div>
+			{{/each}}
+		</script>
+		<script src="js/common.js"></script>
+	</body>
+
+</html>

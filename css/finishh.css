@@ -1,0 +1,30 @@
+
+img{
+  width: 5.12rem;
+  height:4.62rem;
+  margin: 2rem 0;
+}
+p{
+margin-bottom:0.7rem;
+color: #f83f4d;
+font-size: 0.84rem;
+font-weight: bold;
+}
+.wait{
+  font-size:0.72rem;
+}
+.bottom{
+  height:1.8rem;
+width:50%;
+display: flex;
+margin-top:2rem;
+}
+
+.back{
+width:5rem;
+height:1.8rem;
+background-color: #f83f4d;
+color:#fff;
+border-radius: 0.2rem;
+margin-top:1.8rem;
+}

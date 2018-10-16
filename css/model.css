@@ -1,0 +1,18 @@
+.modelAll {
+	width:1200px;
+	margin-bottom:80px;
+}
+.modelAll div {
+  width: 17%;
+ margin-top:30px;
+ border:1px solid #b2acac;
+  margin-left:30px;
+}
+
+.modelAll div:hover{
+border:2px solid #f83f4d;
+}
+.modelAll img { 
+	margin:15px 0;
+}
+

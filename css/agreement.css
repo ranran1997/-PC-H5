@@ -1,0 +1,17 @@
+.protocol {
+	border-top: 1px solid #f0f0f0;
+	padding: 50px 40px 0;
+	line-height: 30px;
+	margin-bottom:80px;
+}
+
+.protocol p{
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+
+.protocol span {
+	line-height: 42px;
+	font-size: 16px;
+}

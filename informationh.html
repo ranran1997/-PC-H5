@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="divport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>一盟快修-免费上门维修平台</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/adapter.css" />
+		<link rel="stylesheet" type="text/css" href="css/informationh.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class='sp line'>
+				服务设备：<span id="modelText"></span>
+			</div>
+			<div id="moreFault">
+				<!--模板-->
+			</div>
+			<div class="sp line price ">
+				预估报价 ：
+				<span>￥</span><span id="priceAll">111</span><span>.00</span>
+			</div>
+			<div class='pr row address'>
+				<div class='jz city' id="address">上海市</div>
+				<select class='district' id="selectArea" name="">
+						<option class="am" value="">黄浦区</option>
+						<option class="am" value="">虹口区</option>
+						<option class="am" value="">杨浦区</option>
+						<option class="am" value="">闸北区</option>
+						<option class="am" value="">闵行区</option>
+						<option class="am" value="">普陀区</option>
+						<option class="am" value="">长宁区</option>
+						<option class="am" value="">静安区</option>
+						<option class="am" value="">徐汇区</option>
+						<option class="am" value="">金山区</option>
+						<option class="am" value="">奉贤区</option>
+						<option class="am" value="">松江区</option>
+						<option class="am" value="">青浦区</option>
+						<option class="am" value="">嘉定区</option>
+						<option class="am" value="">宝山区</option>
+						<option class="am" value="">浦东新区</option>
+					</select>
+				<!--<img src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/h5/arrows@2x.png" alt="" />-->
+			</div>
+			<input class='sp lines' placeholder='详细地址' id="ad">
+			</input>
+			<input class='sp lines' placeholder='联系人' id="name">
+			</input>
+			<p id="nameTips"><span></span></p>
+			<input class='sp lines' onkeyup="value=value.replace(/[^\d]/g,'')" placeholder="手机号" id="phone">
+			</input>
+			<p id="phoneTips"> <span></span></p>
+			<div class='row sp gain'>
+				<input class='sp lines code' onkeyup="value=value.replace(/[^\d]/g,'')" placeholder="验证码" id="code">
+				</input>
+				<input type="button" class="ac getCode" id="saveCode" value="获取验证码"/>
+			</div>
+			<p id="codeTips"><span></span></p>
+			<!-- 协议 -->
+			<p class="hint">提示：</p>
+			<p class="hint">若报价为0元，客服沟通后根据实际情况告知价格。</p>
+			<div class='protocol row'>
+				<img src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon13_1@2x.png"></img>
+				<a class='col sp' href="agreementh.html">
+					<p>我已阅读并同意
+						<span class='txt'>《一盟快修服务协议》</span>
+					</p>
+				</a>
+			</div>
+			<div class='finish' id="confirm">
+				<div class='jz'>立即下单</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/artTemplate/template-web.js"></script>
+		<script src="js/informationh.js"></script>
+		<script type="text/html" id="tpl1">
+			{{each moreFault v i}}
+			<div class='sp line'>
+				设备故障：<span>{{v}}</span>
+			</div>
+			{{/each}}
+		</script>
+		<script src="js/common.js"></script>
+	</body>
+
+</html>

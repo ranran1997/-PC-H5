@@ -1,0 +1,90 @@
+.banner{
+	height:272px;
+}
+.banner img{
+	width:100%;
+	height:100%;
+}
+.infoText{
+	margin-top:30px;
+}
+.price{
+	width:560px;
+	height:235px;
+	padding-left: 22px;
+	font-size: 28px;
+	line-height:38px;
+}
+.priceText{
+	color: #f83f4d;
+}
+.service{
+	font-size: 16px;
+	line-height:28px;
+}
+.service .title{
+	font-size: 28px;
+	line-height:28px;
+	margin-bottom:20px;
+}
+.fast {
+	height: 279px;
+	background-image: url("https://ym-program.oss-cn-shanghai.aliyuncs.com/image/bg.png");
+	margin-bottom:150px;
+}
+
+.fastOrder {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 570px;
+	margin-top:80px;
+}
+
+.info {
+	width: 100%;
+	height: 60px;
+	margin-bottom: 30px
+}
+
+.info input {
+	margin-left: 40px;
+	width: 320px;
+	height: 100%;
+	background-color: #fff;
+	color: #333;
+	font-size: 20px;
+	margin-right: 20px;
+	padding-left: 10px;
+}
+
+.info .code {
+	margin-right: 0;
+	width: 220px;
+}
+
+.info .obtain {
+	width: 100px;
+	height: 100%;
+	background-color: #3a3a3a;
+	font-size: 15px;
+	color: #fff;
+	margin-left:0;
+	padding-left: 0;
+}
+
+.fastSubmit {
+	width: 100%;
+	height: 60px;
+}
+
+.fastSubmit button {
+	width: 170px;
+	height: 100%;
+	background-color: #f83f4d;
+	border-radius: 5px;
+	font-size: 25px;
+	color: #fbfbfb;
+	line-height: 25px;
+}

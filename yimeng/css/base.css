@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/* 用来取消默认间距 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,button,textarea,input {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+}
+.container {
+	height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-color:#fff ;
+	font-size:0.64rem;
+}
+fieldset, img, input, button, textarea {
+  border: none;
+  outline: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+input {
+  font-family: "SimSun", "宋体";
+  border:none;
+}
+select, input, textarea {
+
+  font-size: 12px;
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+body {
+  font: 12px/150% Microsoft YaHei, Arial, Verdana, "SimSun";
+  color: #666;
+}
+
+/*清除浮动最现代、最流行、最简单的方式*/
+.clearfix::before, .clearfix::after {
+  content: "";
+  display: block;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* 为了兼容IE8及以前的浏览器 */
+.clearfix {
+  *zoom: 1;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f83f4d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+s, i, em {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.al {
+  text-align: left;
+}
+
+.ac {
+  text-align: center;
+}
+.am{
+	vertical-align: middle;
+}
+.ar {
+  text-align: right;
+}
+.pr{
+	position: relative;
+}
+.df{
+	display: flex;
+}
+/* 居中 */
+
+.jz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 仅垂直居中 */
+
+.cz {
+  display: flex;
+  justify-content: center;
+}
+
+/* 仅水平居中 */
+
+.sp {
+  display: flex;
+  align-items: center;
+}
+
+/* 横排显示 */
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* 纵排显示 */
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 两端对齐 */
+
+.bt {
+  display: flex;
+  justify-content: space-between;
+}
+/*末端对齐*/
+.end {
+  display: flex;
+  justify-content:flex-end;
+}
+/* 环形布局 */
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tip{
+	height:10px;
+	width:100%;
+	background-color: #f8f8f8;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont/iconfont.eot');
+  src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont/iconfont.woff') format('woff'),
+  url('iconfont/iconfont.ttf') format('truetype'),
+  url('iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+

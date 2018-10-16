@@ -1,0 +1,147 @@
+.container {
+	font-size: 0.8rem;
+}
+.line,
+.lines {
+	width: 90%;
+	height: 2.5rem;
+	border: 1px solid #d5d8dd;
+	background-color: #f8f9fa;
+	border-radius: 0.2rem;
+	margin-left: 3%;
+	padding-left: 0.6rem;
+	margin-top: 0.8rem;
+	font-size: 0.8rem;
+}
+#nameTips,#phoneTips,#codeTips{
+	/*height:30px;*/
+	margin-left:1rem;
+	color:#f83f4d;
+}
+.price span {
+	color: #f83f4d;
+}
+
+
+.gain .code {
+	width: 50%;
+}
+
+.gain .getCode {
+	width: 33%;
+	height: 2.2rem;
+	background-color: #666;
+	border-radius: 0.2rem;
+	color: #fff;
+	font-size: 0.76rem;
+	margin-left: 1rem;
+}
+
+input::-webkit-input-placeholder {
+	font-size: 0.8rem;
+}
+
+.address {
+	width: 10rem;
+}
+
+.address div {
+	width: 3rem;
+	height: 1.76rem;
+	padding: 0 0.6rem;
+	border: 1px solid #d5d8dd;
+	background-color: #f8f9fa;
+	margin-top: 0.4rem;
+	border-radius: 0.2rem;
+	margin-left: 6%;
+	margin-right: 0.6rem;
+}
+
+.address img {
+	width: 0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 1.1rem;
+	right: 0rem;
+}
+
+.district {
+	width: 5.1rem;
+	height: 1.8rem;
+	font-size: 0.8rem;
+	margin-top: 0.4rem;
+	padding-left: 0.2rem;
+}
+
+.district option {
+	font-size: 0.2rem;
+	width: 2.1rem;
+}
+.hint{
+	padding-left: 0.6rem;
+	font-size: 0.8rem;
+	margin-top: 0.6rem;
+}
+.protocol {
+	padding-left: 0.6rem;
+	font-size: 0.8rem;
+	margin-top: 0.6rem;
+}
+
+.protocol img {
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-right: 0.2rem;
+}
+
+.protocol p {
+	line-height: 0.8rem;
+}
+
+.txt {
+	color: #f83f4d;
+}
+
+.finish {
+	width: 100%;
+	height: 2rem;
+	margin-top: 1rem;
+	margin-bottom:5rem;
+}
+
+.finish div {
+	width: 5rem;
+	height: 2rem;
+	margin-left: 69%;
+	background-color: #f83f4d;
+	color: #fff;
+	border-radius: 0.2rem;
+	
+}
+
+.prompt {
+	width: 10.4rem;
+	height: 6.2rem;
+	opacity: 0.4;
+	background: #000;
+	border-radius: 0.16rem;
+	position: fixed;
+	left: 50%;
+	margin-left: -5.2rem;
+	bottom: 50%;
+	z-index: 99;
+}
+
+.prompt img {
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-top: 1.08rem;
+	margin-bottom: 0.6rem;
+}
+
+.prompt div {
+	font-size: 0.8rem;
+	color: #fff;
+	letter-spacing: 0;
+	line-height: 0.8rem;
+}

@@ -1,0 +1,30 @@
+.finish{
+	height:550px;
+	margin-top:90px;
+}
+.left img{
+	width:214px;
+	height:193px;
+	margin:0 186px;
+}
+.right p{
+	font-size: 28px;
+	color: #010101;
+	margin-bottom:30px;
+}
+.right span{
+	font-size: 16px;
+	line-height:30px;
+}
+.matter{
+		margin-top:30px;
+}
+.lock,.backups,.telphone{
+	color: #f83f4d;
+}
+.endewm img{
+	width:147px;
+	height:150px;
+	margin-top:30px;
+	margin-left:50px;
+}

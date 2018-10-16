@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>一盟快修_手机维修_手机上门维修_苹果手机维修_iPhone上门维修-上海顶修信息科技服务有限公司</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="css/init.css">
+		<link rel="stylesheet" href="css/information.css">
+	</head>
+
+	<body>
+		<header class="w row">
+			<div class="sp logoPic">
+				<h1>
+			      	<img src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/logo.png" alt="一盟快修" />
+				</h1>
+			</div>
+			<nav class="nav row">
+				<a href="index.html">首页</a>
+				<div class="all jz pr"><span>手机维修</span>
+					<div class="android col">
+						<a class="jz" href="model.html?id=101">iphone维修</a>
+						<a class="jz" href="android.html">华为维修</a>
+						<a class="jz" href="android.html">小米维修</a>
+					</div>
+				</div>
+				<a href="model.html?id=102">ipad维修</a>
+				<a href="macmodel.html">MacBook维修</a>
+				<a href="other.html">其他维修</a>
+				<p class="jz pr"><span class="query jz">查询订单</span><img class="public" src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/z34.png" alt="" /></p>
+			</nav>
+			<div class="telephone sp">
+				<img src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/phone.png" alt="快速下单：400-811-5111" />
+			</div>
+
+		</header>
+
+		<div class="w progressBar">
+			<img src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/z31.png" alt="" />
+		</div>
+		<div class="w father row">
+
+			<div class="col son1">
+				<div class="row name">
+					<p class="sp">姓名</p>
+					<input type="text" placeholder="请输入姓名" id="name" />
+				</div>
+				<p id="nameTips"><span></span></p>
+				<div class="row phonenumber">
+					<p class="sp">手机</p>
+					<input onkeyup="value=value.replace(/[^\d]/g,'')" placeholder="请输入手机号" id="phone" />
+					<input type="button" class="ac getCode" id="saveCode" value="获取验证码" />
+				</div>
+				<p id="phoneTips"> <span></span></p>
+				<div class="row code">
+					<p class="sp">验证码</p>
+					<input onkeyup="value=value.replace(/[^\d]/g,'')" placeholder="请输入验证码" id="code" />
+				</div>
+
+				<p id="codeTips"><span></span></p>
+				<div class="row address">
+					<p class="sp">地址</p>
+					<div class="jz">上海市</div>
+					<select name="" id="selectArea">
+						<option class="am" value="">黄浦区</option>
+						<option class="am" value="">虹口区</option>
+						<option class="am" value="">杨浦区</option>
+						<option class="am" value="">闸北区</option>
+						<option class="am" value="">闵行区</option>
+						<option class="am" value="">普陀区</option>
+						<option class="am" value="">长宁区</option>
+						<option class="am" value="">静安区</option>
+						<option class="am" value="">徐汇区</option>
+						<option class="am" value="">金山区</option>
+						<option class="am" value="">奉贤区</option>
+						<option class="am" value="">松江区</option>
+						<option class="am" value="">青浦区</option>
+						<option class="am" value="">嘉定区</option>
+						<option class="am" value="">宝山区</option>
+						<option class="am" value="">浦东新区</option>
+					</select>
+				</div>
+				<div class="row details">
+					<p></p>
+					<input type="text" placeholder="请填写详细地址" id="address" />
+				</div>
+			</div>
+			<div class="son2">
+				<ul class="list">
+					<li>故障机型：<span id="modelText"></span></li>
+					<li class="row">
+						<p class="faultTitle">故障类型：</p>
+						<div class="part" id="moreFault">
+
+						</div>
+					</li>
+					<li>维修方案：
+						<span class="tips"> 更换总成兑换(质保180天)（旧屏收回）
+                严选品质非原厂授权物料</span>
+					</li>
+					<li>温馨提示：若报价为0元，客服沟通后根据实际情况告知价格</li>
+				</ul>
+				<div class="sp price end">价格：<span>￥</span><span id="priceAll"></span></div>
+				<div class="agreement">
+					<img src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/a3.png" />我已阅读并同意
+					<a href="agreement.html">《一盟快修服务协议》</a>
+				</div>
+				<div class="next end">
+					<button id="confirm">确定下单</button>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footerTop">
+				<div class="w row">
+					<div class="ServiceCentre col">
+						<p>服务中心</p>
+						<a href="process.html">服务流程</a>
+						<a href="problem.html">常见问题</a>
+						<a href="agreement.html">用户协议</a>
+					</div>
+					<div class="ServiceCentre col">
+						<p>关于我们</p>
+						<a href="introduce.html">企业介绍</a>
+						<a href="join.html">加入我们</a>
+						<a href="contac.html">联系我们<a>
+					</div>
+					<div class="ServiceCentre col">
+						<p>服务热线：400-811-5111</p>
+						<span>公司地址：上海市闵行区颛兴东路1313号606(总部1号云部落大厦)</span>
+						<span>电话：021-33363077 、021-33363088</span>
+					</div>
+					<div >
+						<a href=""></a>
+					</div>
+					<div class="ewm row">
+						<img src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/y011.png" alt="一盟快修公众号" />
+						<img src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/y012.png" alt="一盟快修小程序" />
+					</div>
+				</div>
+			</div>
+			<p class="ac copyright">Copyright 2018 上海顶修信息科技服务有限公司 All Rights Reserved 沪ICP备18030800号-1</p>
+		</footer>
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/artTemplate/template-web.js"></script>
+		<script src="js/information.js"></script>
+
+		<script type="text/html" id="tpl1">
+			{{each moreFault v i}}<span>{{v}},</span>{{/each}}
+		</script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?26b6c9e12119813f0db9be100c8afad7";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+		<script src="js/common.js"></script>
+	</body>
+
+</html>

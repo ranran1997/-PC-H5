@@ -1,0 +1,26 @@
+.txt{
+	padding-left:400px;
+	font-size: 18px;
+	line-height:35px;
+	border-top: 1px solid #f0f0f0;
+	padding-top: 30px;
+	margin-bottom:40px;
+}
+.txt p{
+	margin-bottom:30px;
+}
+.recruitTitle{
+	font-size: 24px;
+}
+.recruitTitle span{
+	padding-bottom:5px;
+	border-bottom:5px solid #f83f4d;
+}
+.tel{
+	color:#f83f4d;
+}
+.pic{
+		padding-left:400px;
+		height:209px;
+		margin-bottom:100px;
+}
